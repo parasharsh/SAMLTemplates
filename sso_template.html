@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>POST data</title>
+</head>
+<body onload="document.getElementsByTagName(&#39;input&#39;)[0].click();">
+	
+	<form method="post" action="<<SPEndPoint>>">
+		<input type="submit" style="display:none;">
+<input type="hidden" name="SAMLResponse" value="<<EncodedToken>>">
+		<noscript>
+			<input type="submit" value="Submit">
+		</noscript>
+	</form>
+
+
+</body></html>
